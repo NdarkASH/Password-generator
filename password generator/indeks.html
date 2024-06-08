@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>random password</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Noto+Sans+Sundanese:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- all -->
+    <div class="container">
+      <h1>Generate a <br>Random <span>password</span></h1>
+      <div class="display">
+        <input type="text" id="password" name="password" placeholder="password">
+        <img src="images/copy.png" onclick="copyPassword()">
+      </div>
+      <!-- tombol -->
+      <button onclick="createPassword()"><img src="images/generate.png">Generate</button>
+    </div>
+  </body>
+  <script src="/password generator/script.js">
+  </script>
+</html>
